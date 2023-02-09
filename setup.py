@@ -15,7 +15,7 @@ setup(
     long_description=io.open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     url="https://plotly.com/dash",
-    packages=[],
+    packages=["dash_testing_stub"],
     classifiers=[
         "Environment :: Web Environment",
         "Framework :: Dash",
